@@ -9,4 +9,8 @@ router.get('/', function(req, res, next) {
   });
 });
 
+router.get('/new', function(req, res, next) {
+  res.render('links/new');
+});
+
 module.exports = router;

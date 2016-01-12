@@ -1,7 +1,7 @@
 var chai = require('chai');
 var expect = chai.expect;
 var mongoose = require('mongoose');
-var Link = require('../models/link');
+var Link = require('../../models/link');
 
 
 describe('viewing links', function () {
