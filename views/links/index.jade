@@ -1,0 +1,10 @@
+extends ../layout
+
+block content
+  h1 Links
+  ul#links
+  
+  - for link in links
+    li 
+      p Title: #{link.title}
+      p URL: #{link.url}
